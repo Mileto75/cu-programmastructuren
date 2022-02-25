@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js"></script>
+  <title>Programmastructuren</title>
+</head>
+
+<body>
+  <img class="floatrechts" src="img/logohowest.png" alt="Logo" />
+
+  <h1>Operatoren</h1>
+
+  <h2>Toekenningsoperatoren</h2>
+  <b>In dit voorbeeld worden enkele variabelen gedeclareerd en krijgen ze telkens een nieuwe waarden.</b>
+  <button id="assignment-operators">Toon toekennig</button>
+  <div id="assignment-operators-result"> </div>
+
+  <h2>Vergelijkingsoperatoren</h2>
+  <b>
+    In dit voorbeeld worden enkele waarden gedeclaardeerd, waarvan sommigen met een ander datatype.
+    Vervolgens worden ze met elkaar vergeleken met vergelijkingsoperatoren die al dan niet ook het datatype checken.
+  </b>
+  <button id="comparison-operators">Toon vergelijking</button>
+  <div id="comparison-operators-result"></div>
+
+  <h2>Wiskundige operatoren</h2>
+  <b>In dit voorbeeld worden de rekenkundige operatoren nogmaals getoond.</b>
+  <button id="arithmetic-operators">Toon berekening</button>
+  <div id="arithmetic-operators-result"></div>
+
+  <h2>Booleaanse operatoren</h2>
+  <b>In dit voorbeeld worden de booleaanse operatoren nogmaals getoond.</b>
+  <button id="boolean-operators">Toon Boolexpressie</button>
+  <div id="boolean-operators-result"></div>
+
+  <h1>Structuren</h1>
+
+  <h2>Voorwaardelijk uitvoeren van instructie(s)</h2>
+  <h3>If ... else</h3>
+  <b>In dit voorbeeld worden verschillen syntaxen voor een if ... else structuur gedemonstreerd.</b>
+  <button id="if-else-statements">Toon if ... else</button>
+  <div id="if-else-statements-result"></div>
+
+  <h3>Switch</h3>
+  <label for="switch-input">Geef een scheepsvaarder in:</label> 
+  <input type="text" name="switch-input" id="switch-input" placeholder="Naam..." />
+  <b>In dit voorbeeld wordt de switch-syntax in JavaScript gedemonstreerd.</b>
+  <button id="switch-button">Toon switch</button>
+  <div id="switch-result"></div>
+
+  <h2>Herhaaldelijke uitvoering: iteraties of lussen</h2>
+  <h3>While</h3>
+  <label for="while-input">Geef een getal in:</label>
+  <input type="text" name="while-input" id="while-input" placeholder="Getal..." />
+  <b>In dit voorbeeld wordt de while-syntax in JavaScript gedemonstreerd.</b>
+  <button id="while-button">Toon while</button>
+  <div id="while-result"></div>
+  
+  <h3>Do ... while</h3>
+  <label for="do-while-input">Geef een getal in:</label>
+  <input type="text" name="do-while-input" id="do-while-input" placeholder="Getal..." />
+  <b>In dit voorbeeld zie je een do ... while-lus aan het werk die optelt tot aan een maximale waarde. Tip: geef eens een getal groter dan de maximale waarde in ... !</b>
+  <button id="do-while-button">Toon do ... while</button>
+  <div id="do-while-result"></div>
+  
+  <h3>For</h3>
+  <label for="for-input">Geef een getal in: </label>
+  <input type="text" name="for-input" id="for-input" placeholder="Getal..." />
+  <b>In dit voorbeeld wordt een for lus gebruikt die aftelt vanaf het ingegeven getal en stopt bij een minimumwaarde.</b>
+  <button id="for-button">Toon for</button>
+  <div id="for-result"></div>
+
+  <h3>For ... in</h3>
+  <button id="for-in-button">Toon for ... in</button>
+  <b>Dit voorbeeld toont welke values er aan welke key gekoppeld zijn.</b>
+  <div id="for-in-result"></div>
+
+  <h3>Break</h3>
+  <button id="break-button">Toon break</button>
+  <b>In dit voorbeeld worden de oneven getallen vanaf 1 doorlust, maar wordt er gestopt bij het getal 7.</b>
+  <div id="break-result"></div>
+
+  <h3>Continue</h3>
+  <button id="continue-button">Toon continue</button>
+  <b>In dit voorbeeld wordt er geteld tot 8, maar worden de getallen 3 en 6 overgeslaan.</b>
+  <div id="continue-result"></div>
+
+</body>
+
+</html>
